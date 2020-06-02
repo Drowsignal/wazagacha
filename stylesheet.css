@@ -1,0 +1,72 @@
+@font-face{
+  font-family: "bananaslip";
+  src: url("C:/Users/Drowsignal/Downloads/bananaslip_free/of/font/bananaslip.otf")
+}
+
+.title{
+text-align:center;
+padding-bottom:50px;
+border-bottom: 1px #eeeeee solid;
+}
+
+.title img{
+width:1170px;
+}
+
+
+
+.title h1{
+  color:#fff;
+  font-size:50px;
+  text-align:center;
+  padding:12px 0px;
+  
+}
+
+.contents{
+  /*width:1170px;*/
+  padding-top:50px;
+  text-align:center
+}
+.gacha{
+  padding:8px 24px;
+  display:inline-block;
+  color:white;
+  background-color: orange;
+  opacity:0.8;
+  border-radius : 4px;
+
+}
+.gacha:hover{
+  opacity:1;
+}
+.gachaBtn {
+  font-size:20px;
+}
+
+.gacharesult{
+  display:inline-block;
+  padding-top:50px;
+}
+
+/*.gachagif{
+ display:none; 
+}
+ */ 
+
+
+#res1 {
+  display:none;
+}
+#res2 {
+  display:none;
+}
+
+#res3 {
+  display:none;
+}
+
+
+.mu{
+  height:200px;
+}
