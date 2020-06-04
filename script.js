@@ -1,4 +1,7 @@
-$('.gacha').click(function(){
+$('.gachaBtn').click(function(){
+    $('.gachagif').css('display','none');
+    $('[id^=twt]').css('display','none');
+
     // 乱数作る
     const getRandomIntInclusive = function(min, max) {
         min = Math.ceil(min);
@@ -9,13 +12,16 @@ $('.gacha').click(function(){
 
     switch(ransu){
         case 1:
-            $('#res1').css('display','block' );
+            $('#res1').fadeIn();
+            $('#twt01').fadeIn();
             break;
         case 2:
-            $('#res2').css('display','block' );
+            $('#res2').fadeIn();
+            $('#twt02').fadeIn();
             break;
         case 3:
-            $('#res3').css('display','block' );
+            $('#res3').fadeIn();
+            $('#twt03').fadeIn();
             break;
 
     }
