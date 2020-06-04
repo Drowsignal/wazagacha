@@ -10,7 +10,7 @@ border-bottom: 1px #eeeeee solid;
 }
 
 .title img{
-width:1170px;
+width:100%;
 }
 
 
@@ -53,6 +53,10 @@ width:1170px;
  display:none; 
 }
  */ 
+.tweetBtn{
+  display:block;
+  padding-top:50px;
+}
 
 
 #res1 {
@@ -63,6 +67,16 @@ width:1170px;
 }
 
 #res3 {
+  display:none;
+}
+
+#twt01{
+  display:none;
+}
+#twt02{
+  display:none;
+}
+#twt03{
   display:none;
 }
 
