@@ -1,5 +1,12 @@
+$(function(){
+        $('.gachaBtn').one('click', function(){
+                $('.twitter-share-button').css('opacity','1.0');
+              });
+            
+        
 
  $('.gachaBtn').click(function(){
+                
                 $('.gachagif').css('display','none');
                 $('[id^=twt]').css('display','none');
 
@@ -126,3 +133,5 @@
     }
 })
 
+
+});
