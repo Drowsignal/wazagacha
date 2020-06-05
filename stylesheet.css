@@ -66,10 +66,12 @@ width:100%;
  */ 
 .tweetBtn{
   display:block;
-  opacity:0;
   padding-top:50px;
 }
 
+.twitter-share-button{
+  opacity:0;
+}
 
 #res1 {
   display:none;
