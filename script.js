@@ -1,6 +1,5 @@
 
  $('.gachaBtn').click(function(){
-                $('.twitter-share-button').css('opacity','1.0');
                 $('.gachagif').css('display','none');
                 $('[id^=twt]').css('display','none');
 
