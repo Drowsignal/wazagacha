@@ -1,4 +1,5 @@
 $('.gachaBtn').click(function(){
+        $('.tweetBtn').css('display','block');
     $('.gachagif').css('display','none');
     $('[id^=twt]').css('display','none');
 
@@ -88,27 +89,23 @@ $('.gachaBtn').click(function(){
                         $('#twt18').fadeIn();
                         break;
         case 19:
-                            $('#res18').fadeIn();
-                            $('#twt18').fadeIn();
+                            $('#res19').fadeIn();
+                            $('#twt19').fadeIn();
                             break;
         case 20:
                                 $('#res20').fadeIn();
                                 $('#twt20').fadeIn();
                                 break;
-        case 19:
-            $('#res19').fadeIn();
-            $('#twt19').fadeIn();
-            break;
-        case 20:
-                $('#res20').fadeIn();
-                $('#twt20').fadeIn();
-                break;
         case 21:
                 $('#res21').fadeIn();
                 $('#twt21').fadeIn();
                 break;
         case 22:
                 $('#res22').fadeIn();
+                $('#twt22').fadeIn();
+                break;
+        case 23:
+                $('#res23').fadeIn();
                 $('#twt23').fadeIn();
                 break;
         case 24:
