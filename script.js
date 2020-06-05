@@ -1,129 +1,263 @@
 
- $('.gachaBtn').click(function(){
-                $('.tweetBtn').css('display','block');
-                $('.gachagif').css('display','none');
-                $('[id^=twt]').css('display','none');
 
-    // 乱数作る
-         const getRandomIntInclusive = function(min, max) {
-         min = Math.ceil(min);
-         max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
-      }
-                var ransu = getRandomIntInclusive(1,26);
+.title{
+text-align:center;
+padding-bottom:50px;
+}
 
-    switch(ransu){
-        case 1:
-            $('#res1').fadeIn();
-            $('#twt01').fadeIn();
-            break;
-        case 2:
-            $('#res2').fadeIn();
-            $('#twt02').fadeIn();
-            break;
-        case 3:
-            $('#res3').fadeIn();
-            $('#twt03').fadeIn();
-            break;
-        case 4:
-                $('#res4').fadeIn();
-                $('#twt04').fadeIn();
-                break;
-        case 5:
-            $('#res5').fadeIn();
-             $('#twt05').fadeIn();
-              break;
-        case 6:
-                $('#res6').fadeIn();
-                $('#twt06').fadeIn();
-                break;
-        case 7:
-                    $('#res7').fadeIn();
-                    $('#twt07').fadeIn();
-                    break;
-
-        case 8:
-                    $('#res8').fadeIn();
-                    $('#twt08').fadeIn();
-                    break;
-
-        case 9:
-            $('#res9').fadeIn();
-            $('#twt09').fadeIn();
-            break;
-
-        case 10:
-                $('#res10').fadeIn();
-                $('#twt10').fadeIn();
-                break;
-        case 11:
-                    $('#res11').fadeIn();
-                    $('#twt11').fadeIn();
-                    break;
-
-        case 12:
-                    $('#res12').fadeIn();
-                    $('#twt12').fadeIn();
-                    break;
-        case 13:
-                        $('#res13').fadeIn();
-                        $('#twt13').fadeIn();
-                        break;
-        case 14:
-                            $('#res14').fadeIn();
-                            $('#twt14').fadeIn();
-                            break;
-        case 15:
-             $('#res15').fadeIn();
-            $('#twt15').fadeIn();
-             break;
-        case 16:
-                $('#res16').fadeIn();
-                $('#twt16').fadeIn();
-                break;
-        case 17:
-                    $('#res17').fadeIn();
-                    $('#twt17').fadeIn();
-                    break;
-        case 18:
-                        $('#res18').fadeIn();
-                        $('#twt18').fadeIn();
-                        break;
-        case 19:
-                            $('#res19').fadeIn();
-                            $('#twt19').fadeIn();
-                            break;
-        case 20:
-                                $('#res20').fadeIn();
-                                $('#twt20').fadeIn();
-                                break;
-        case 21:
-                $('#res21').fadeIn();
-                $('#twt21').fadeIn();
-                break;
-        case 22:
-                $('#res22').fadeIn();
-                $('#twt22').fadeIn();
-                break;
-        case 23:
-                $('#res23').fadeIn();
-                $('#twt23').fadeIn();
-                break;
-        case 24:
-                $('#res24').fadeIn();
-                $('#twt24').fadeIn();
-                break;
-        case 25:
-                $('#res25').fadeIn();
-                $('#twt25').fadeIn();
-                break;
-        case 26:
-                $('#res26').fadeIn();
-                $('#twt26').fadeIn();
-                break;
-                
+.title img{
+width:100%;
+}
 
 
-    }
-})
 
+.title h1{
+  color:#fff;
+  font-size:50px;
+  text-align:center;
+  padding:12px 0px;
+  
+}
+
+.top{
+ padding-bottom:50px;
+  text-align:center;
+  border-bottom: #eeeeee 1px solid;
+}
+
+.top img{
+  width:400px;
+  display:inline-block;
+}
+
+
+
+
+
+.contents{
+  /*width:1170px;*/
+  padding-top:50px;
+  text-align:center
+}
+.gacha{
+  padding:8px 24px;
+  display:inline-block;
+  color:white;
+  background-color: orange;
+  opacity:0.8;
+  border-radius : 4px;
+
+}
+.gacha:hover{
+  opacity:1;
+}
+.gachaBtn {
+  font-size:20px;
+}
+
+.gacharesult{
+  display:inline-block;
+  padding-top:50px;
+}
+
+/*.gachagif{
+ display:none; 
+}
+ */ 
+.tweetBtn{
+  display:block;
+  opacity:0;
+  padding-top:50px;
+}
+
+
+#res1 {
+  display:none;
+}
+#res2 {
+  display:none;
+}
+
+#res3 {
+  display:none;
+}
+
+#res4 {
+  display:none;
+}
+
+#res5 {
+  display:none;
+}
+
+#res6 {
+  display:none;
+}
+
+#res7 {
+  display:none;
+}
+
+#res8 {
+  display:none;
+}
+
+#res9 {
+  display:none;
+}
+
+#res10 {
+  display:none;
+}
+
+#res11 {
+  display:none;
+}
+
+#res12{
+  display:none;
+}
+
+#res13 {
+  display:none;
+}
+
+#res14 {
+  display:none;
+}
+
+#res15 {
+  display:none;
+}
+
+#res16 {
+  display:none;
+}
+
+#res17 {
+  display:none;
+}
+
+#res18 {
+  display:none;
+}
+
+#res19 {
+  display:none;
+}
+
+#res20 {
+  display:none;
+}
+
+#res21 {
+  display:none;
+}
+
+#res22 {
+  display:none;
+}
+
+#res23 {
+  display:none;
+}
+
+#res24 {
+  display:none;
+}
+
+#res25 {
+  display:none;
+}
+
+#res26 {
+  display:none;
+}
+
+
+/*
+#twt01{
+  display:none;
+}
+#twt02{
+  display:none;
+}
+#twt03{
+  display:none;
+}
+#twt04{
+  display:none;
+}
+#twt05{
+  display:none;
+}
+#twt06{
+  display:none;
+}
+#twt07{
+  display:none;
+}
+#twt08{
+  display:none;
+}
+#twt09{
+  display:none;
+}
+#twt10{
+  display:none;
+}
+#twt12{
+  display:none;
+}
+#twt12{
+  display:none;
+}
+#twt13{
+  display:none;
+}
+#twt14{
+  display:none;
+}
+#twt15{
+  display:none;
+}
+#twt16{
+  display:none;
+}
+#twt17{
+  display:none;
+}
+#twt18{
+  display:none;
+}
+#twt19{
+  display:none;
+}
+#twt20{
+  display:none;
+}
+#twt21{
+  display:none;
+}
+#twt22{
+  display:none;
+}
+#twt23{
+  display:none;
+}
+#twt24{
+  display:none;
+}
+#twt25{
+  display:none;
+}
+#twt26{
+  display:none;
+}
+*/
+
+
+
+.mu{
+  height:200px;
+}
