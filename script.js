@@ -1,15 +1,16 @@
-$('.gachaBtn').click(function(){
-        $('.tweetBtn').css('display','block');
-    $('.gachagif').css('display','none');
-    $('[id^=twt]').css('display','none');
+
+ $('.gachaBtn').click(function(){
+         $('.tweetBtn').css('display','block');
+                $('.gachagif').css('display','none');
+                $('[id^=twt]').css('display','none');
 
     // 乱数作る
-    const getRandomIntInclusive = function(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
+         const getRandomIntInclusive = function(min, max) {
+         min = Math.ceil(min);
+         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
       }
-    var ransu = getRandomIntInclusive(1,26);
+                var ransu = getRandomIntInclusive(1,26);
 
     switch(ransu){
         case 1:
@@ -125,3 +126,4 @@ $('.gachaBtn').click(function(){
 
     }
 })
+
