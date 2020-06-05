@@ -1,12 +1,8 @@
-@font-face{
-  font-family: "bananaslip";
-  src: url("C:/Users/Drowsignal/Downloads/bananaslip_free/of/font/bananaslip.otf")
-}
+
 
 .title{
 text-align:center;
 padding-bottom:50px;
-border-bottom: 1px #eeeeee solid;
 }
 
 .title img{
@@ -22,6 +18,21 @@ width:100%;
   padding:12px 0px;
   
 }
+
+.top{
+ padding-bottom:50px;
+  text-align:center;
+  border-bottom: #eeeeee 1px solid;
+}
+
+.top img{
+  width:400px;
+  display:inline-block;
+}
+
+
+
+
 
 .contents{
   /*width:1170px;*/
