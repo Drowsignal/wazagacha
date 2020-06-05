@@ -19,19 +19,19 @@
             break;
         case 2:
             $('#res2').fadeIn();
-            $('#twt02').fadeIn();
+
             break;
         case 3:
             $('#res3').fadeIn();
-            $('#twt03').fadeIn();
+
             break;
         case 4:
                 $('#res4').fadeIn();
-                $('#twt04').fadeIn();
+  
                 break;
         case 5:
             $('#res5').fadeIn();
-             $('#twt05').fadeIn();
+
               break;
 
                 
