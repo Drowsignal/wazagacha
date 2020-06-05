@@ -1,0 +1,9 @@
+@media (max-width: 400px){
+    .top img{
+        width:100%;
+    }
+
+    .gacharesult img{
+        width:100%;
+    }
+}
